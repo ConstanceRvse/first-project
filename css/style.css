@@ -25,33 +25,26 @@ body{
     background-position: 50%, 50%;
     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
     color: white;
-    margin: 50px 0px;
-}
-
-.game-explanation{
-    margin-bottom: 30px;
-    line-height: 1.65em;
-    font-size: 20px;
+    margin: 30px 0px;
 }
 
 .game-intro{
     display: flex;
     justify-content: space-between;
-    line-height: 35px;
-    margin-bottom: 0;
+    line-height: 1.3em;
+    margin-bottom: 5px;
 }
 
 .game-intro p{
-    width: 250px;
-    font-size: 20px;
-    margin-top: 5px;
-    margin-bottom: 30px;
+    width: 340px;
+    font-size: 14px;
     padding-bottom: 10px;
+    margin-top: 0;
 }
 
 #score-button {
     background: #2B2F77;
-    padding: 10px 25px;
+    padding: 8px 25px;
     font-size: 16px;
     line-height: 47px;
     font-weight: bold;
@@ -71,7 +64,7 @@ body{
     text-align: center;
     font-size : 16px;
     font-weight: bold;
-    margin: 15px 0px 30px 0px;
+    margin: 15px 0px 15px 0px;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -89,8 +82,8 @@ body{
 }
 
 h1.title {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 50px;
     font-weight: bold;
     text-align: left;
     display: block; 
