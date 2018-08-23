@@ -49,64 +49,64 @@ function Square(row, coll){
   this.y = row * width + 5 * (row + 1);
 }
 
-// function drawSquare(Square){
-//   ctx.beginPath();
-//   ctx.rect(Square.x, Square.y, width, width);
-//     switch (Square.value){
-//       case 0 : ctx.fillStyle = '#141852';
-//         break;
-//       case 2 : ctx.fillStyle = 'white';
-//         break;
-//       case 4 : ctx.fillStyle = '#BFBFC1';
-//         break;
-//       case 8 : ctx.fillStyle = '#EBCEF2';
-//         break;
-//       case 16 : ctx.fillStyle = '#B995BF';
-//         break;
-//       case 32 : ctx.fillStyle = '#A072A5';
-//         break;
-//       case 64 : ctx.fillStyle = '#855988';
-//         break;
-//       case 128 : ctx.fillStyle = '#6B4984';
-//         break;
-//       case 256 : ctx.fillStyle = '#483477';
-//         break;
-//       case 512 : ctx.fillStyle = '#2A214F';
-//         break;
-//       case 1024 : ctx.fillStyle = '#212121';
-//         break;
-//       case 2048 : ctx.fillStyle = 'black';
-//     }
-//     ctx.fill();
-// }
-
 function drawSquare(Square){
+  ctx.beginPath();
+  ctx.rect(Square.x, Square.y, width, width);
     switch (Square.value){
-      case 0 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 0 : ctx.fillStyle = '#141852';
         break;
-      case 2 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 2 : ctx.fillStyle = 'white';
         break;
-      case 4 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 4 : ctx.fillStyle = '#BFBFC1';
         break;
-      case 8 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 8 : ctx.fillStyle = '#EBCEF2';
         break;
-      case 16 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 16 : ctx.fillStyle = '#B995BF';
         break;
-      case 32 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 32 : ctx.fillStyle = '#A072A5';
         break;
-      case 64 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 64 : ctx.fillStyle = '#855988';
         break;
-      case 128 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 128 : ctx.fillStyle = '#6B4984';
         break;
-      case 256 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 256 : ctx.fillStyle = '#483477';
         break;
-      case 512 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 512 : ctx.fillStyle = '#2A214F';
         break;
-      case 1024 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 1024 : ctx.fillStyle = '#212121';
         break;
-      case 2048 : ctx.drawImage(Square.x, Square.y, width, width);
+      case 2048 : ctx.fillStyle = 'black';
     }
+    ctx.fill();
 }
+
+// function drawSquare(Square){
+//     switch (Square.value){
+//       case 0 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 2 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 4 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 8 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 16 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 32 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 64 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 128 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 256 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 512 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 1024 : ctx.drawImage(Square.x, Square.y, width, width);
+//         break;
+//       case 2048 : ctx.drawImage(Square.x, Square.y, width, width);
+//     }
+// }
 
 
 function drawAllSquares(){
