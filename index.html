@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Black Sheep</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class = "container">
+
+        <div class = "heading">
+
+            <h1 class="title">The Black <br>Sheep</h1>
+            <img src="./images/lune-12.svg">
+            
+        </div>
+
+        <div class="game-intro">
+            <p>Put together sheep of the same color to obtain <strong>The Black Sheep !</strong></p>
+            <div class ="buttons">
+                <a id = "score-button">Score : <span id="score">0</span></a>
+                <a id = "restart">New Game</a>
+            </div>
+        </div>
+        
+        <div id="game-container">
+            <canvas id="canvas" width="500" height="500"></canvas>
+        </div>
+
+        <p class="game-explanation">
+        <strong class="important">How to play :</strong> Use the <strong>directional arrows</strong> to move sheep. When 2 sheep with the same color are next, then <strong> they come together in one.</strong><br/>
+        </p>
+
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>
+    
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
