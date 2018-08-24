@@ -76,8 +76,6 @@ function createCells(){
   }
 }
 
-// coll 0, 1, 2, 3
-// row  0, 1, 2, 3
 function Cell(row, coll){
   this.value = 0;
   this.x = coll * width + 5 * (coll + 1);
