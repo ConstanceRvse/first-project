@@ -2,6 +2,8 @@ var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var restart = document.getElementById("restart");
 
+var audio = document.getElementById("myAudio");
+
 var cellZero = new Image();
 cellZero.src = "./images/zero.svg";
 cellZero.onload = function () {
@@ -58,7 +60,7 @@ var selectScore = document.getElementById("score");
 
 //---------------------------------------------------------
 
-startGame()
+startGame();
 
 
 restart.onclick = function (){
@@ -157,6 +159,7 @@ function randomNewCell(){
 }
 
 document.onkeydown = function (event){
+  audio.play();
   if (loss === false && win === false){
     switch (event.keyCode){
       case 37: moveLeft();
