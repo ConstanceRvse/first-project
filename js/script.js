@@ -4,12 +4,21 @@ var restart = document.getElementById("restart");
 
 var cellZero = new Image();
 cellZero.src = "./images/zero.svg";
+cellZero.onload = function () {
+  drawAllCells();
+};
 
 var cellTwo = new Image();
 cellTwo.src = "./images/2.svg";
+cellTwo.onload = function () {
+  drawAllCells();
+};
 
 var cellFour = new Image();
 cellFour.src = "./images/4.svg";
+cellFour.onload = function () {
+  drawAllCells();
+};
 
 var cell8 = new Image();
 cell8.src = "./images/8.svg";
@@ -49,9 +58,8 @@ var selectScore = document.getElementById("score");
 
 //---------------------------------------------------------
 
-$(document).ready(function(){
-    startGame()
-});
+startGame()
+
 
 restart.onclick = function (){
     canvasClean();
