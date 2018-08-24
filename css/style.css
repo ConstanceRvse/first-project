@@ -1,10 +1,13 @@
 .heading {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5px;
+    height: 110px;
 }
 
 .heading img{
-    width: 30%;
+    width: 25%;
+    margin-right: 10px;
 }
 
 .container {
@@ -25,48 +28,46 @@ body{
     background-position: 50%, 50%;
     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
     color: white;
-    margin: 30px 0px;
+    margin: 20px 0px;
 }
 
 .game-intro{
     display: flex;
     justify-content: space-between;
-    line-height: 1.3em;
-    margin-bottom: 5px;
+    line-height: 1em;
 }
 
 .game-intro p{
-    width: 330px;
-    font-size: 14px;
+    width: 315px;
+    font-size: 12px;
     padding-bottom: 10px;
     margin-top: 0;
 }
 
 #score-button {
     background: #2B2F77;
-    padding: 8px 25px;
-    font-size: 16px;
-    line-height: 47px;
+    padding: 11px 25px;
+    font-size: 14px;
     font-weight: bold;
     border-radius: 3px;
     color: white;
     text-align: center;
+    margin-top: 5px;
 }
 
 #restart{
     background: #141852;
     border-radius: 3px;
-    padding: 6px 10px 8px 10px;
     text-decoration: none;
     color: #f9f6f2;
-    height: 40px;
-    line-height: 42px;
+    line-height: 14px;
     text-align: center;
-    font-size : 16px;
+    font-size : 14px;
     font-weight: bold;
     margin: 15px 0px 15px 0px;
     transition-duration: 0.4s;
     cursor: pointer;
+    padding: 12px 25px;
 }
 
 #restart:hover {
@@ -82,10 +83,12 @@ body{
 }
 
 h1.title {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
     font-weight: bold;
     text-align: left;
     display: block; 
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 
